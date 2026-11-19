@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# env 양식 파일은 커밋 허용 (실제 키는 .env.local 에만)
+!.env.local.example
